@@ -1,0 +1,6 @@
+E:\Work\Demo\EfashionCool\EfashionCool.Article\bin\Debug\EfashionCool.Article.exe.config
+E:\Work\Demo\EfashionCool\EfashionCool.Article\bin\Debug\EfashionCool.Article.exe
+E:\Work\Demo\EfashionCool\EfashionCool.Article\bin\Debug\EfashionCool.Article.pdb
+E:\Work\Demo\EfashionCool\EfashionCool.Article\obj\Debug\EfashionCool.Article.csprojResolveAssemblyReference.cache
+E:\Work\Demo\EfashionCool\EfashionCool.Article\obj\Debug\EfashionCool.Article.exe
+E:\Work\Demo\EfashionCool\EfashionCool.Article\obj\Debug\EfashionCool.Article.pdb

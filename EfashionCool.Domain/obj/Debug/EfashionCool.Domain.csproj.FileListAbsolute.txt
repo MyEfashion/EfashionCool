@@ -1,0 +1,16 @@
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EfashionCool.Domain.dll.config
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EfashionCool.Domain.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EfashionCool.Domain.pdb
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\DevLib.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\DevStack.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EntityFramework.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\MySql.Data.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\Npgsql.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\Mono.Security.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EntityFramework.xml
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\obj\Debug\EfashionCool.Domain.csprojResolveAssemblyReference.cache
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\obj\Debug\EfashionCool.Domain.dll
+E:\Work\Demo\EfashionCool\EfashionCool.Domain\obj\Debug\EfashionCool.Domain.pdb
