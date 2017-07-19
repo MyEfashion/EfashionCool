@@ -10,7 +10,7 @@
 	bool UseIdAsPK = false;				// if true: Changes the primary key property name to Id
 	bool GenerateConstructor = false;		// if true: Generates the default empty constructor
 	bool UseSchemaAttribute = false;		// if true: Adds explicit '[Schema]' attribute
-	TablePrefixs = new string[] { "Test_"};//表的前缀
+	TablePrefixs = new string[] { "a_"};//表的前缀
 
     // Read schema
 	var tables = LoadTables(MakeSingular);

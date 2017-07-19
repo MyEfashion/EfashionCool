@@ -59,6 +59,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\a_articlesource.cs">
+      <DependentUpon>OrmLite.Poco.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\OrmLite.Poco.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
