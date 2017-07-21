@@ -10,6 +10,11 @@ namespace EfashionCool.Infrastructure
 {
     public static class DownloadNet
     {
+        /// <summary>
+        /// 获取Url内Html
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
         public static string GetHtmlString(string url)
         {
             HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
