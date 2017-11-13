@@ -62,12 +62,21 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\EfashionCool.Domain\EfashionCool.Domain.csproj">
+      <Project>{0a6b1ccf-fd49-4aec-9b34-303043bf7ebd}</Project>
+      <Name>EfashionCool.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EfashionCool.Infrastructure\EfashionCool.Infrastructure.csproj">
       <Project>{e25c596f-ed41-4698-9871-77a6e172c65e}</Project>
       <Name>EfashionCool.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EfashionCool.Manager\EfashionCool.Manager.csproj">
+      <Project>{35713d14-54ba-4157-a5fb-d6bd7a41d62e}</Project>
+      <Name>EfashionCool.Manager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

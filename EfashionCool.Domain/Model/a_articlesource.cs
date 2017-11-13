@@ -30,6 +30,8 @@ namespace EfashionCool.Model
         public string FromDomain { get; set;}
         public string FromDomainName { get; set;}
         public string PublishUrl { get; set;}
+        public string Content { get; set;}
+        public string ContentWithTags { get; set;}
         public string Author { get; set;}
         [Required]
         public DateTime CreateTime { get; set;}

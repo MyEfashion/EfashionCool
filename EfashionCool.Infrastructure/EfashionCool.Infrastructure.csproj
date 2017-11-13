@@ -38,6 +38,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +48,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConnectionHelper.cs" />
     <Compile Include="DownloadNet.cs" />
+    <Compile Include="Html2Article.cs" />
+    <Compile Include="ListResult\ListResult.cs" />
     <Compile Include="LogHelper.cs" />
     <Compile Include="MatchHtml.cs" />
+    <Compile Include="OperateHtml.cs" />
+    <Compile Include="PageList\IPagedList.cs" />
+    <Compile Include="PageList\PageList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrlUtility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EfashionCool.Domain\EfashionCool.Domain.csproj">
+      <Project>{0a6b1ccf-fd49-4aec-9b34-303043bf7ebd}</Project>
+      <Name>EfashionCool.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EfashionCool.Manager\EfashionCool.Manager.csproj">
+      <Project>{35713d14-54ba-4157-a5fb-d6bd7a41d62e}</Project>
+      <Name>EfashionCool.Manager</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

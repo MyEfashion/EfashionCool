@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevLib">
-      <HintPath>..\Libs\EntFly\DevLib\DevLib.dll</HintPath>
+      <HintPath>E:\毕业事宜\毕业事宜\PowerTQMS\Libs\EntFly\DevLib\DevLib.dll</HintPath>
     </Reference>
     <Reference Include="DevStack">
-      <HintPath>..\Libs\EntFly\DevStack\DevStack.dll</HintPath>
+      <HintPath>E:\毕业事宜\毕业事宜\PowerTQMS\Libs\EntFly\DevStack\DevStack.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -59,7 +59,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\a_articlecheck.cs">
+      <DependentUpon>OrmLite.Poco.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\a_articlesource.cs">
+      <DependentUpon>OrmLite.Poco.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\a_downloadurl.cs">
       <DependentUpon>OrmLite.Poco.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\OrmLite.Poco.cs">
